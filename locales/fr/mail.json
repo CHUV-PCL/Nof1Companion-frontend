@@ -1,0 +1,26 @@
+{
+	"warning": "En cas de contact ultérieur, veuillez utiliser les informations de contact se trouvant ci-dessous (ne pas répondre directement à cet e-mail).",
+	"hello": "Madame, Monsieur,",
+	"pharma": {
+    "subject": "Service N-of-1 : Préparation des traitements",
+		"intro": "Merci pour votre collaboration.",
+		"intro1": "Vous trouverez-ci joint le fichier Excel contenant les informations nécessaires pour préparer les traitements du test N-of-1.",
+		"intro2": "Le fichier contient les informations du patient, du médecin traitant, du médecin responsable du test N-of-1 et les posologies des différents traitements.",
+		"contact": "Informations de contact:",
+		"contact-name": "Médecin: {{name}}",
+		"contact-email": "Adresse e-mail: {{email}}",
+		"contact-phone": "Tél.: {{phone}}",
+		"greetings": "Merci d'avance. Cordiales salutations."
+	},
+  "patient": {
+		"subject": "Lien d'accès au formulaire concernant votre test thérapeutique",
+		"intro": "Vous trouverez ci-dessous un lien vous permettant d'accéder au carnet de relevés des paramètres de santé concernant votre test thérapeutique. Merci de bien vouloir le remplir quotidiennement.",
+		"link": "Le formulaire sera accessible du {{startDate}} au {{endDate}}.",
+		"link2": "Lien du formulaire:",
+		"contact": "En cas de question, utilisez les informations de contact ci-dessous:",
+		"contact-name": "Médecin: {{name}}",
+		"contact-email": "Adresse e-mail: {{email}}",
+		"contact-phone": "Tél.: {{phone}}",
+		"greetings": "Merci d'avance. Cordiales salutations."
+	}
+}

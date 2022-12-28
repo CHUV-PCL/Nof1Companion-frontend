@@ -1,0 +1,129 @@
+{
+	"createBtn": "Valider et créer le test",
+	"create-error": "Veuillez compléter toutes les parties du formulaire avant de valider la création du test et/ou vérifier les champs incorrects",
+	"draftBtn": "Sauvegarder le brouillon",
+	"draft-error": "Veuillez au minimum renseigner les participants",
+	"participants": {
+		"title": "Informations des participants",
+		"pharmacy": "Pharmacie partenaire",
+		"patient": "Patient",
+		"requestingPhysician": "Médecin demandeur du test N-of-1",
+		"attendingPhysician": "Médecin traitant",
+		"btn-add-attendingPhysician": "Ajouter un médecin traitant",
+		"nof1-physician": "Médecin responsable du test N-of-1",
+		"findPatient": "Trouver un patient par ID",
+		"findPhysician": "Trouver un médecin par ID"
+	},
+	"parameters": {
+		"title": "Paramètres du test N-of-1",
+		"subtitle-substances": "Substances",
+		"same-substance-warning": "Si vous souhaitez utiliser plusieurs fois la même substance (par exemple comparaison à différentes posologies), veuillez ajouter une entrée pour chaque substance et les nommer différemment (nom et abréviation).",
+		"substance-name": "Nom",
+		"substance-abbrev": "Abréviation",
+		"subtitle-duration": "Durée du test",
+		"periods-nb": "Nombre de périodes",
+		"max-value": "Maximum {{max}}",
+		"period-duration": "Durée d'une période (en jours)",
+		"subtitle-randomStrategy": "Stratégie de randomisation du schéma d'administration",
+		"randomStrategy-desc": "Choisissez la stratégie qui sera utilisée pour alterner l'administration des différentes substances choisies.",
+		"RS-permutation": "Répétition aléatoire des séquences de permutations de toutes les substances.",
+		"RS-permutation-helper": "Par exemple avec 2 substances choisies, A et B. Il s’agira d’une répétition des séquences de permutation AB ou BA.\nExemple : AB AB BA ...\nAvec 3 substances : A, B et C. iI s’agira d’une répétition des séquences de permutation ABC, ACB, BCA, etc...\nEt ainsi de suite.",
+		"RS-random-max-rep": "Aléatoire, mais avec un nombre maximum de répétitions consécutives d'une même substance.",
+		"RS-random-max-rep-N": "Nombre de répétitions max",
+		"RS-custom": "Séquence prédéfinie.",
+		"RS-custom-warning": "Veuillez utiliser les abréviations des substances et les séparer par \";\"\nAttention, veuillez vous conformer au nommage des abréviations et au nombre de périodes défini !",
+		"subtitle-posology": "Schémas posologiques",
+		"posology-desc": "Indiquez les doses totales prévues le matin, à midi, le soir et la nuit pour les substances choisies.\nLes colonnes \"Fraction(s)*\" permettent d'indiquer en combien de parts (gélules, comprimés, etc) la dose totale doit être divisée, afin de laisser une possibilité d'adaptation spontanée lors de la prise du médicament. Exemple: si la dose du matin = 100mg et fraction(s) = 2, alors le système prévoira une préparation de 2 doses de 50mg.",
+		"posology-supp-desc": "Vous avez la possibilité d'entrer plusieurs posologies pour chaque substance. Le système en choisira aléatoirement une parmi celles que vous aurez entrées (s'il n'y en a qu'une, elle sera choisie par défaut).",
+		"substance-x": "Substance: {{substance}}",
+		"posology-x": "- Posologie {{x}}",
+		"posology-repeat-switch": "Répéter la posologie du dernier jour pour la période suivante, si deux périodes consécutives concernent la même substance.",
+		"add-posology-btn": "Ajouter une posologie",
+		"save-posology-btn": "Sauvegarder la posologie",
+		"warning-save-posology": "(N'oubliez pas de sauvegarder les modifications, sinon elles ne seront pas prises en compte)",
+		"config-posology-btn": "Configurer les posologies*",
+		"warning-config-posology": "(*Paramétrez les substances et la durée des périodes avant de configurer les posologies. Vous ne pourrez plus modifier ceux-ci après avoir cliqué sur le bouton.)",
+		"decreasing-posology": {
+			"title": "Posologie décroissante",
+			"desc": "Rajouter une posologie décroissante lors de la période suivante si le traitement change, afin d'éviter un syndrome de sevrage de la substance courante lors du changement de période ?\n(Celle-ci se poursuivra la période suivante en même temps qu'une autre substance)",
+			"btn": "Ajouter une posologie décroissante"
+		},
+		"analysisToPerform": "Analyse statistique à effectuer"
+	},
+	"variables": {
+		"title": "Variables à monitorer",
+		"header": {
+			"name": "Nom",
+			"type": "Type",
+			"desc": "Description / question",
+			"unit": "Unité de mesure",
+			"min": "Borne min.",
+			"max": "Borne max.",
+			"0": "Label négatif (0)",
+			"1": "Label positif (1)",
+			"values": "Valeurs (qualitative)",
+			"skip": "Jours de rodage sautées pour l'analyse"
+		},
+		"skipped-run-in-desc": "Détermine le nombre de jours (de la période) qui doivent être omis de l'analyse statistique.\nAfin de ne prendre en compte que les jours où la concentration de la substance est significative pour l'analyse (par exemple lors d'une posologie croissante).",
+		"types": {
+			"txt": "Textuelle",
+			"vas": "VAS",
+			"numeric": "Numérique",
+			"qualitative": "Qualitative",
+			"binary": "Binaire"
+		},
+		"quantitative-helper-txt": "Valeurs (veuillez les séparer par \";\" et les ordonner si de type ordinal)",
+		"add-new-btn": "Ajouter nouvelle variable",
+		"add-existing-btn": "Ajouter variable prédéfinie",
+		"additional-var-subtitle": "Variables textuelles additionnelles",
+		"predefined": {
+			"side-effect": "Événements indésirables",
+			"side-effect-desc": "Indiquez les événements indésirables rencontrés avec le traitement :",
+			"problem": "Problèmes rencontrés",
+			"problem-desc": "Indiquez les éventuels problèmes rencontrés :",
+			"backup-medic": "Médicaments en réserve",
+			"backup-medic-desc": "Indiquez les médicaments pris en réserve :",
+			"fraction": "Fraction du médicament",
+			"fraction-desc": "Indiquez le nombre de fractions du médicament pris (si vous n'avez pas tout pris) :",
+			"interruption": "Autres médications",
+			"interruption-desc": "Indiquez si vous avez interrompu ou introduit d'autres médicaments :",
+			"remarks": "Remarques générales",
+			"remarks-desc": "Remarques générales :"
+		},
+		"modal-title": "Paramètres de la variable à monitorer",
+		"error": {
+			"already-exist": "Cette variable existe déjà",
+			"min0": "Minimum 0",
+			"max": "Ne peut pas dépasser la longueur d'une période"
+		},
+		"end-period-Q": {
+			"title": "Questions de fin de période",
+			"Q": "Inclure les questions relatives aux fins de périodes et le compteur de période dans le carnet/formulaire de relevés des variables de santé du patient ?",
+			"info": "Voici les questions qui seront ajoutées :\n- Quel traitement pensez-vous avoir pris cette dernière période ?\n- Pensez-vous que le traitement de cette période soit optimal pour vous ?\n- Remarques concernant les deux questions précédentes.\nCes questions apparaîtront au dernier jour d'une période."
+		}
+	},
+	"clinicalInfo": {
+		"title": "Informations cliniques",
+		"sex": "Sexe",
+		"sex-man": "Homme",
+		"sex-woman": "Femme",
+		"age": "Âge",
+		"weight": "Poids",
+		"height": "Taille",
+		"fields-info": "Les champs suivants sont multi-lignes. Veuillez séparer différentes entrées par \";\" le cas échéant.",
+		"indication": "Indication au médicament à tester",
+		"other-diag": "Autres diagnostics importants",
+		"drugs": "Médicament(s) à tester (DCI et posologie)",
+		"other-drugs": "Autres médicaments en cours (DCI et posologie)",
+		"purpose": {
+			"title": "But du test N-of-1 :",
+			"efficacy": "Évaluation de l’efficacité",
+			"side-effects": "Évaluation d’effet(s) secondaire(s)",
+			"deprescription": "Déprescription",
+			"dosage": "Recherche de dose",
+			"drugs-choice": "Choix entre médicaments",
+			"generic-substitution": "Substitution générique/bio-similaire",
+			"other": "Autre"
+		}
+	}
+}

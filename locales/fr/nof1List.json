@@ -1,0 +1,50 @@
+{
+	"btn": {
+		"create": "créer un nouveau test N-of-1",
+		"create-fromID": "créer un nouveau test N-of-1, à partir d'un autre",
+		"stop": "Stopper le test",
+		"stop-info": "Permet de stopper un test en cas de problème.\nLe test passera à l'état terminé, permettant d'accéder aux résultats. La date de fin du test sera ajustée et les données importables du patient s'étendront jusqu'à cette nouvelle date.\nL'arrêt du test est définitif (il ne sera pas possible de revenir en arrière).",
+		"edit": "Modifier le test",
+		"delete": "Supprimer le test"
+	},
+	"creation-warning": "Vous ne pouvez créer qu'un test par intervalle de 15 minutes",
+	"delete-warning": "Êtes-vous sûr de vouloir supprimer le test ?",
+	"create-fromID-dialog-title": "Choisissez l'ID du test qui servira comme modèle",
+	"header": {
+    "id": "ID du test",
+    "date": "Date de création",
+    "state": "Statut"
+  },
+	"optionsMenu": "Options",
+	"menu": {
+		"parameters": "Consulter les paramètres du test",
+		"dataImport": "Importer les données du patient",
+		"xmlExport": "Exporter les données du test en XML",
+		"varBooklet": "Générer le carnet de santé du patient",
+		"varBooklet-preview": "Aperçu du carnet de relevés du patient",
+		"varBooklet-preview-info": "Les dates affichées sont à titre d'exemple car la date de début du test n'a pas encore été définie.",
+		"send-email-pharma": "Renvoyer l'e-mail à la pharmacie",
+		"send-email-patient": "Renvoyer l'e-mail au patient",
+		"delete-test": "Supprimer le test",
+		"xlsx-exemple": "Télécharger un exemple du fichier envoyé à la pharmacie",
+		"xlsx-exemple-info": "Le fichier envoyé à la pharmacy ne sera pas le même (il sera généré à nouveau)."
+	},
+	"btnStatus": {
+		"draft": "Reprendre le brouillon",
+		"ended": "Résultat",
+		"ongoing": "En cours",
+		"ready": "Démarrer le test",
+		"ready-info": "Après avoir entré la date du début effective du test (premier jour où le traitement doit être pris) et cliqué sur ce bouton, le test passera à l’état \"en cours\".\nUn e-mail sera envoyé au patient afin de lui transmettre le lien d’accès à la page lui permettant de remplir le formulaire concernant les variables de santé à monitorer.",
+		"preparation": "Démarrer la préparation",
+		"preparation-info": "Déclenche la génération du schéma d'administration aléatoire, selon la stratégie sélectionnée, et l’envoi d’un email à la pharmacie partenaire avec les informations pour préparer les traitements.\nIl ne sera plus possible de modifier les paramètres du test N-of-1 après cette étape."
+	},
+  "alert": {
+    "date": "Veuillez indiquer une date de début du test",
+    "email": "L'e-mail n'a pas pu être envoyé, veuillez vérifier l'adresse et réessayer!"
+  },
+  "email": {
+    "sent": "E-mail envoyé avec succès",
+    "confirm": "Veuillez vérifier l'adresse e-mail avant d'envoyer l'e-mail (une adresse inexistante ne sera pas détectée) :"
+  },
+  "booklet-file-title": "Formulaire"
+}

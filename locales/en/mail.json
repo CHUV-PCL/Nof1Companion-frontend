@@ -1,0 +1,26 @@
+{
+	"warning": "In case of further contact, please use the contact information below (do not reply directly to this e-mail).",
+	"hello": "Dear Madam or Sir,",
+	"pharma": {
+		"subject": "Service N-of-1 : Preparation of treatments",
+		"intro": "Thank you for your collaboration.",
+		"intro1": "Please find attached the Excel file containing the information needed to prepare the N-of-1 test treatments.",
+		"intro2": "The file contains the information of the patient, the treating physician, the physician responsible for the N-of-1 test and the dosages of the different treatments.",
+		"contact": "Contact information:",
+		"contact-name": "Physician: {{name}}",
+		"contact-email": "Email address: {{email}}",
+		"contact-phone": "Phone: {{phone}}",
+		"greetings": "Thank you in advance. Best regards."
+	},
+	"patient": {
+		"subject": "Web link to the form concerning your therapeutic test",
+		"intro": "Below you will find a link to the health parameters logbook for your therapeutic test. Please fill it out daily.",
+		"link": "The form will be available from {{startDate}} to {{endDate}}.",
+		"link2": "Link to the form:",
+		"contact": "If you have any questions, please use the contact information below:",
+		"contact-name": "Physician: {{name}}",
+		"contact-email": "Email address: {{email}}",
+		"contact-phone": "Phone: {{phone}}",
+		"greetings": "Thank you in advance. Best regards."
+	}
+}

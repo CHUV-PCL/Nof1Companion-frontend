@@ -1,0 +1,129 @@
+{
+	"createBtn": "Validate & create the test",
+	"create-error": "Please complete all parts of the form before validating the test creation and/or check incorrect fields",
+	"draftBtn": "Save draft",
+	"draft-error": "Please at least inform the participants",
+	"participants": {
+		"title": "Participants information",
+		"pharmacy": "Partner pharmacy",
+		"patient": "Patient",
+		"requestingPhysician": "Physician requesting the N-of-1 test",
+		"attendingPhysician": "Attending physician",
+		"btn-add-attendingPhysician": "Add an attending physician",
+		"nof1-physician": "Physician responsible of the N-of-1 test",
+		"findPatient": "Find a patient by ID",
+		"findPhysician": "Find a physician by ID"
+	},
+	"parameters": {
+		"title": "Parameters of the N-of-1 test",
+		"subtitle-substances": "Substances",
+		"same-substance-warning": "If you want to use the same substance several times (e.g. comparison at different dosages), please add an entry for each and name them differently (name and abbreviation).",
+		"substance-name": "Name",
+		"substance-abbrev": "Abbreviation",
+		"subtitle-duration": "Test duration",
+		"periods-nb": "Number of periods",
+		"max-value": "Maximum {{max}}",
+		"period-duration": "Period duration (in days)",
+		"subtitle-randomStrategy": "Randomization strategy of the administration scheme",
+		"randomStrategy-desc": "Choose the strategy that will be used to alternate the administration of the different substances selected.",
+		"RS-permutation": "Random repetition of the permutation sequences of all substances.",
+		"RS-permutation-helper": "For example with 2 selected substances, A and B. It will be a repetition of the permutation sequences AB or BA.\nExample : AB AB BA ...\nWith 3 substances: A, B and C. It will be a repetition of the permutation sequences ABC, ACB, BCA, etc...\nAnd so on.",
+		"RS-random-max-rep": "Random, but with a maximum number of consecutive repetitions of the same substance.",
+		"RS-random-max-rep-N": "Max number of repetitions",
+		"RS-custom": "Predefined sequence.",
+		"RS-custom-warning": "Please use the abbreviations of the substances and separate them by \";\"\nPlease note that the abbreviations and the number of periods must be respected !",
+		"subtitle-posology": "Dosage schedules",
+		"posology-desc": "Indicate the total expected morning, noon, evening and night doses for the selected substances.\nThe \"Fraction(s)*\" columns are used to indicate how many parts (capsules, tablets, etc) the dose should be divided into, in order to allow for spontaneous adaptation when taking the medication. Example: if the morning dose = 100mg and fraction(s) = 2, then the system will provide for a preparation of 2 doses of 50mg.",
+		"posology-supp-desc": "You have the possibility to enter several dosages for each substance. The system will randomly choose one of the ones you have entered (if there is only one, it will be chosen by default).",
+		"substance-x": "Substance: {{substance}}",
+		"posology-x": "- Posology {{x}}",
+		"posology-repeat-switch": "Repeat the last day's dosage for the next period, if two consecutive periods involve the same substance.",
+		"add-posology-btn": "Add a posology",
+		"save-posology-btn": "Save posology",
+		"warning-save-posology": "(Don't forget to save the modifications, otherwise they won't be taken into account)",
+		"config-posology-btn": "Configure posologies*",
+		"warning-config-posology": "(*Set up the substances and the duration of the test before setting up the dosages. You will not be able to change these after clicking on the button.)",
+		"decreasing-posology": {
+			"title": "Decreasing posology",
+			"desc": "Add a decreasing dosage during the next period if the treatment changes, in order to avoid a withdrawal syndrome of the current substance when changing periods ?\n(It will be continued the next period with another substance)",
+			"btn": "Add a decreasing posology"
+		},
+		"analysisToPerform": "Statistical analysis to perform"
+	},
+	"variables": {
+		"title": "Variables to monitor",
+		"header": {
+			"name": "Name",
+			"type": "Type",
+			"desc": "Description / question",
+			"unit": "Unit",
+			"min": "Min",
+			"max": "Max",
+			"0": "Negative label (0)",
+			"1": "Positive label (1)",
+			"values": "Values (qualitative)",
+			"skip": "Skipped run-in days for analysis"
+		},
+		"skipped-run-in-desc": "Determines the number of days (of the period) that should be omitted from the statistical analysis.\nIn order to take into account only the days when the concentration of the substance is significant for the analysis (for example when the dosage is increasing).",
+		"types": {
+			"txt": "Textual",
+			"vas": "VAS",
+			"numeric": "Numeric",
+			"qualitative": "Qualitative",
+			"binary": "Binary"
+		},
+		"quantitative-helper-txt": "Values (please separate them by \";\" and order them if ordinal)",
+		"add-new-btn": "Add new variable",
+		"add-existing-btn": "Add predefined variable",
+		"additional-var-subtitle": "Additional textual variables",
+		"predefined": {
+			"side-effect": "Adverse events",
+			"side-effect-desc": "Report any adverse events encountered with the treatment :",
+			"problem": "Problems encountered",
+			"problem-desc": "Report any problems encountered :",
+			"backup-medic": "Medications as needed",
+			"backup-medic-desc": "Report any medication taken as needed :",
+			"fraction": "Fraction of drug taken",
+			"fraction-desc": "Report the number of fractions of the medication taken (if you did not take it all) :",
+			"interruption": "Other medications",
+			"interruption-desc": "Report if you have discontinued or introduced other medications :",
+			"remarks": "General remarks",
+			"remarks-desc": "General remarks :"
+		},
+		"modal-title": "Parameters of the variable to monitor",
+		"error": {
+			"already-exist": "This variable already exists",
+			"min0": "Minimum 0",
+			"max": "Cannot exceed the period's length"
+		},
+		"end-period-Q": {
+			"title": "End of period questions",
+			"Q": "Include end of period questions and period counter in the patient's health variable record book/form ?",
+			"info": "The following questions will be added:\n- Which treatment do you think you took this last period?\n- Do you think the treatment of this period is optimal for you?\n- Remarks regarding the two previous questions.\nThese questions will appear on the last day of a period."
+		}
+	},
+	"clinicalInfo": {
+		"title": "Clinical information",
+		"sex": "Sex",
+		"sex-man": "Man",
+		"sex-woman": "Woman",
+		"age": "Age",
+		"weight": "Weight",
+		"height": "Height",
+		"fields-info": "The following fields are multiline. Please separate different entries with \";\" if necessary.",
+		"indication": "Indication for the drug to be tested",
+		"other-diag": "Other important diagnoses",
+		"drugs": "Drug(s) to be tested (INN and dosage)",
+		"other-drugs": "Other current medications (INN and dosage)",
+		"purpose": {
+			"title": "Purpose of the N-of-1 test:",
+			"efficacy": "Assessment of efficacy",
+			"side-effects": "Assessment of side effect(s)",
+			"deprescription": "Deprescription",
+			"dosage": "Searching for a dose",
+			"drugs-choice": "Choice between drugs",
+			"generic-substitution": "Generic/biosimilar substitution",
+			"other": "Other"
+		}
+	}
+}

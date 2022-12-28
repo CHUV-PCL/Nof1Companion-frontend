@@ -1,0 +1,134 @@
+{
+	"nav": {
+		"title": "N-of-1 companion",
+		"nof1List": "Tests N-of-1",
+		"profile": "Mon profil",
+		"logout": "Déconnexion"
+	},
+	"footer": {
+		"1": "Cet outil vous est proposé par le ",
+		"pcl": "Service de Pharmacologie clinique du Centre Hospitalier Universitaire Vaudois (PCL - CHUV, Suisse)",
+		"2": "Avec la collaboration de la ",
+		"heig": "Haute École d'Ingénierie et de Gestion du Canton de Vaud (HEIG-VD)",
+		"report": "Ce test N-of-1 a été réalisé à l'aide de l'outil \"N-of-1 Companion\", disponible en ligne et proposé par le Service de Pharmacologie clinique du Centre Hospitalier Universitaire Vaudois (PCL-CHUV, Suisse)."
+	},
+	"form": {
+		"signIn": "Connexion",
+		"signUp": "Créer un compte",
+		"email": "Email",
+		"password": "Mot de passe",
+		"passwordConfirm": "Confirmer le mot de passe",
+		"title": "Titre",
+		"institution": "Institution / Cabinet médical",
+		"firstname": "Prénom",
+		"lastname": "Nom",
+		"phone": "Téléphone",
+		"street": "Adresse",
+		"zip": "Code postal",
+		"city": "Ville",
+		"country": "Pays",
+		"birth-year": "Année de naissance",
+		"insurance": "Assurance",
+		"insuranceNb": "Numéro d'assuré"
+	},
+	"formErrors": {
+		"requiredField": "Champ requis",
+		"emailInvalid": "L'email est malformée",
+		"minLen": "Minimum 8 caractères",
+		"maxLen": "Maximum 32 caractères",
+		"maxLen-n": "Maximum {{n}} caractères",
+		"alpha": "Autorisé: lettres alphabétiques",
+		"noWhiteSpace": "Pas d'espace, de tabulation ou de retour de ligne",
+		"oneUpperLetter": "Au moins une lettre majuscule",
+		"oneLowerLetter": "Au moins une lettre minuscule",
+		"oneDigitOrSpecial": "Au moins un chiffre ou un caractère spécial",
+		"invalidPassword": "Votre mot de passe ne respecte pas les critères de sécurité",
+		"passwordConfirm": "Veuillez confirmer votre mot de passe",
+		"passwordConfirmNoMatch": "Le mot de passe ne correspond pas",
+		"number": "Veuillez entrer un nombre (entier et sans espace)",
+		"textarea": "Autorisé: lettres, chiffres, espaces et les caractères suivants: ',.:;\"/+-?!#%()",
+		"digitsRequired": "Autorisé: chiffres (pas d'espace)",
+		"digitsMax": "Maximum 20 numéros",
+		"userAlreadyExists": "L'utilisateur existe déjà !",
+		"userAlreadyExists2": "Un utilisateur avec cette adresse e-mail existe déjà !",
+		"userNotFound": "Aucun utilisateur trouvé avec cette adresse e-mail",
+		"invalidCredentials": "Identifiants de connexion non valides",
+		"errorMsg": "Veuillez vérifier les champs incorrects",
+		"errorField": "Champ incorrect",
+		"unexpectedErrorMsg": "Une erreur s'est produite, veuillez réessayer",
+		"successMsg": "Les données ont été enregistrées",
+		"integerRange": "Doit être un entier entre 0 et 299 (ou vide)",
+		"year": "Année au format \"YYYY\""
+	},
+	"button": {
+		"add": "Ajouter",
+		"cancel": "Annuler",
+		"save": "Enregistrer",
+		"send": "Envoyer",
+		"delete": "Supprimer",
+		"close": "Fermer",
+		"download": "Télécharger",
+		"backToLogin": "Retour à la page de connexion",
+		"backToNof1": "Retour à la page des tests N-of-1"
+	},
+	"measure-unit-label": "Unité de mesure",
+	"posology-table": {
+		"day": "Jour",
+		"morning": "Matin",
+		"noon": "Midi",
+		"evening": "Soir",
+		"night": "Nuit",
+		"fraction": "Fraction(s)*",
+		"fraction-info": "*information fractions",
+		"fraction-desc": "Indique en combien de fractions (gélules, comprimés, etc) la dose totale doit être divisée. Exemple: fractions=2 & dose=100mg signifie 2 fractions de 50mg.",
+		"dose": "Dose ({{unit}})",
+		"dose-w/o-unit": "Dose",
+		"dose-total": "Dose totale",
+		"dose-unitary": "Dose unitaire",
+		"unit": "Unité"
+	},
+	"startingDate": "Date de début du test",
+	"endingDate": "Date de fin du test",
+	"date": "Date",
+	"day": "Jour",
+	"days": "jours",
+	"substance": "Substance",
+	"period": "Période",
+	"table": {
+		"labelRowsPerPage": "Lignes par page :",
+		"ofLabel": "sur",
+		"moreLabel": "plus de"
+	},
+	"xlsx": {
+		"sub-recap": {
+			"qty": "Quantité totale pour substance",
+			"total-dose": "doses (fractions) totales",
+			"unit-dose": "doses (fractions) de "
+		},
+		"decreasing-dosage-info": "Schéma d'administration supplémentaire pour les substances nécessitant un traitement décroissant (au changement de période)."
+	},
+	"close-modal": "Fermer le récapitulatif",
+	"print": {
+		"btn": "Imprimer (imprimer en pdf)*",
+		"warning": "*Vérifiez les paramètres d'impression pour un rendu correct. Notamment les marges (par défaut) et la mise à l'échelle (taille réel, 100% ou par défaut).",
+		"warning2": "Préférez une impression direct si ces paramètres ne sont pas modifiables lors de l'enregistrement en PDF (c'est par exemple le cas pour Chrome. FireFox et Edge permettent une impression en PDF qui respectent les dimensions)."
+	},
+	"yes": "Oui",
+	"no": "Non",
+	"statistics": {
+		"type": "Analyses possible :",
+		"NaiveANOVA": "ANOVA naive",
+		"NaiveANOVA-long": "ANOVA naïve pour l'effet du traitement",
+		"NaiveANOVA-desc": "Ce test considère chaque observation comme indépendante.",
+		"CycleANOVA": "ANOVA avec effet de cycle",
+		"CycleANOVA-long": "ANOVA pour l'effet du traitement par cycle",
+		"CycleANOVA-desc": "Ce test permet de contraster les effets du traitement entre les cycles, éliminant ainsi le problème de la répétition.",
+		"ANCOVAautoregr": "ANCOVA Auto-régression",
+		"ANCOVAautoregr-long": "ANCOVA pour l'effet du traitement en tenant compte de l'auto-corrélation",
+		"ANCOVAautoregr-desc": "Ce test compare les réponses au traitement en tenant compte de l'auto-corrélation des observations (composante auto-régressive AR(1))."
+	},
+	"errors": {
+		"test-not-found": "Ce test N-of-1 n'existe pas !"
+	},
+  "404": "Page introuvable"
+}

@@ -1,0 +1,82 @@
+{
+	"btn": {
+		"dataImport": "Importer les données du patient",
+		"report": "Générer le rapport médical",
+		"xml": "Exporter les données du test N-of-1 au format ODM-XML",
+		"xml-clear": "Données identifiantes en clair",
+		"xml-anonymous": "Données identifiantes anonymisées",
+		"xml-encrypted": "Données identifiantes chiffrées",
+		"recap-modal": "Consulter les paramètres du test"
+	},
+	"title": {
+		"main": "Résultats détaillés",
+		"testID": "ID test : {{testID}}",
+		"random-sub-seq": "Séquence aléatoire d'administration des substances",
+		"selected-posologies": "Posologies sélectionnées",
+		"admin-schema": "Schéma d'administration",
+		"patient-data": "Relevés des variables de santé du patient",
+		"graph": "Graphiques des variables quantitatives",
+		"statistics": "Statistiques"
+	},
+	"interrupted": "Test interrompu",
+	"period-duration": "Durée d'une période :",
+	"randomStrategy": "Stratégie de randomisation :",
+	"posology-repeat": "Posologie du dernier jour répétée pour la période suivante, si deux périodes consécutives concernent la même substance.",
+	"no-data": "Vous n'avez pas encore importé les données du patient.",
+	"xlsx": {
+		"export": "Exporter fichier excel",
+		"file-admin-schema": "Schéma_d'administration",
+		"file-patient-data": "Données_de_santé_du_patient",
+		"file-posology-x": "Posologie_{{substance}}"
+	},
+	"report": {
+		"info": "Informations concernant le rapport ci-dessous :",
+		"info-1": "- la plupart des champs sont éditables.",
+		"info-2": "- les encadrés définissent des zones de texte mais la bordure n'apparaîtra pas lors de l'impression.",
+		"info-3": "- si vous fermez le rapport, les changements seront perdus. Pensez donc à imprimer le rapport une fois terminé.",
+		"file-title": "Rapport_médical",
+		"upload-img": "Charger un logo",
+		"today": "{{city}}, le {{date}}",
+		"object": "Concerne: Test N-of-1 du patient {{patient}}, né en {{year}}",
+		"dear": "Chère, cher collègue,",
+		"intro": "Nous vous remercions de nous avoir confié votre patient(e), que nous avons vu(e) à plusieurs reprises pour la réalisation d'un test \"N-of-1\" réalisé du {{startDate}} au {{endDate}} dans notre service. Ce test a consisté en l'administration de {{substances}} par périodes alternées réparties selon une séquence aléatoire, en double insu. Le patient devait renseigner ses paramètres de santé durant les {{nbPeriods}} périodes de {{periodLen}} jours que durait le test. Le dépouillement des résultats est résumé ci-après.",
+		"sequence": "Agenda des médications (après levée de l'insu) :",
+		"method": "Méthode :",
+		"method-desc": "Une analyse statistique compare les variables de santé quantitatives monitorées en fonction du traitement reçu. Ces variables sont reportés durant chaque période soit en mm sur des Visual Analog Scales de 100 mm, soit en valeur numérique (cf. graphiques ci-dessous).",
+		"method-choice": "Analyse statistique effectuée : {{analysis}}",
+		"method-choice2": "Analyse statistique initialement planifiée : {{analysis}}",
+		"results": "Résultats :",
+    "result-table": {
+      "criterion" : "Critère de jugement",
+      "mean-sub": "Moyenne {{substance}} ({{unit}})",
+      "p-value": "Valeur P"
+    },
+		"conclusion": "Conclusion",
+		"conclusion-placeholder": "Écrivez votre conclusion ici...",
+		"results-details": "Résultats détaillés:",
+    "free-textarea": "Zone de texte libre..."
+	},
+	"data-table": {
+		"supposition": "Supposition du traitement",
+		"optimal": "Traitement optimal",
+		"remark": "Remarques (supposition & optimal)"
+	},
+	"statistics": {
+		"var-analyse": "Analyse de la variable : {{variable}}",
+		"warning": "Attention : les données du  patient ne sont pas complètes pour cette variable !",
+		"error": "L'analyse ne peut pas être effectuée.",
+		"warning-custom-strategy": "Cette analyse n'est valable que si votre séquence d'administration des substances prédéfinie est conforme à la stratégie de permutation (qui est définie lors de la création du test, à savoir, une alternance des séquences de permutation des substances) !",
+		"error-strategy": "Cette analyse n'est pas autorisée avec la stratégie de randomisation choisie !",
+		"treatment": "Traitement",
+		"treat-effect": "Effect traitement (moyenne)",
+		"residual": "Résidus",
+		"total": "Total",
+		"total-mean": "Moyenne générale",
+		"cycle": "Cycle",
+		"treatXcycle": "Traitement x cycle",
+		"autoregression": "Auto-régression",
+		"slope": "Pente",
+		"intercept": "Intercept",
+		"correlation": "Corrélation"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"logbookTitle": "Carnet de relevés des paramètres de santé",
+	"subtitle": "Durant votre traitement, veuillez s’il-vous plaît remplir quotidiennement le formulaire ci-dessous.",
+	"response": "Réponse :",
+	"period": "Période",
+	"import-btn": "Importer les données depuis un fichier (format JSON)",
+	"save-btn": "Enregistrer les modifications",
+	"go-to-result-btn": "Aller à la page des résultats",
+	"import-alert-fail": "Le fichier n'est pas un fichier JSON valide !",
+	"import-alert-success": "Fichier importé avec succès",
+	"patient": {
+		"welcome": "Bienvenue sur la page contenant le formulaire lié à votre traitement actuel.\nMerci de bien vouloir le remplir quotidiennement.\n\n",
+		"deadline-error": "Ce test thérapeutique est soit terminé, soit il n'a pas encore commencé.\nMerci de consulter l'e-mail que vous avez reçu pour prendre connaissance des dates de ce dernier.\n\nSi le test thérapeutique est terminé, vous ne pouvez plus accéder au formulaire.\nS'il n'a pas encore commencé, merci de revenir sur cette page à partir de la date de commencement."
+	},
+  "supposition": "Quel traitement pensez-vous avoir pris cette dernière période ?",
+  "optimal": "Pensez-vous que le traitement de cette période soit optimal pour vous ?",
+  "period-Q-remark": "Remarques concernant les deux questions précédentes",
+  "idk": "Je ne sais pas",
+  "value-btw": "Valeur entre {{x}} et {{y}}"
+}

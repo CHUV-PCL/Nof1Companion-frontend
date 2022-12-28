@@ -1,0 +1,82 @@
+{
+	"btn": {
+		"dataImport": "Import patient data",
+		"report": "Generate the medical report",
+		"xml": "Export N-of-1 test data to ODM-XML format",
+		"xml-clear": "Identifying data in clear text",
+		"xml-anonymous": "Anonymized identifying data",
+		"xml-encrypted": "Encrypted identifying data",
+		"recap-modal": "Consult the test parameters"
+	},
+	"title": {
+		"main": "Detailed results",
+		"testID": "ID test : {{testID}}",
+		"random-sub-seq": "Randomized sequence of substance administration",
+		"selected-posologies": "Selected posologies",
+		"admin-schema": "Administration schema",
+		"patient-data": "Records of patient's health variables",
+		"graph": "Quantitative variables charts",
+		"statistics": "Statistics"
+	},
+	"interrupted": "Test interrupted",
+	"period-duration": "Period duration :",
+	"randomStrategy": "Randomization strategy :",
+	"posology-repeat": "Last day's dosage repeated for the next period, if two consecutive periods involve the same substance.",
+	"no-data": "You have not imported the patient's data yet.",
+	"xlsx": {
+		"export": "Export excel file",
+		"file-admin-schema": "Administration_schema",
+		"file-patient-data": "Patient_health_data",
+		"file-posology-x": "Posology_{{substance}}"
+	},
+	"report": {
+		"info": "Information about the report below :",
+		"info-1": "- most of the fields are editable.",
+		"info-2": "- the boxes define text zones but the border will not appear when printing.",
+		"info-3": "- if you close the report, the changes will be lost. So remember to print the report when you are done.",
+		"file-title": "Medical_report",
+		"upload-img": "Upload a logo",
+		"today": "{{city}}, {{date}}",
+		"object": "Object: N-of-1 test of the patient {{patient}}, born in {{year}}",
+		"dear": "Dear colleague,",
+		"intro": "Thank you for referring your patient, whom we have seen on several occasions, for a \"N-of-1\" test performed from {{startDate}} to {{endDate}} in our department. This test consisted of the administration of {{substances}} in alternating periods in a randomized, double-blind sequence. The patient was asked to report his or her health parameters during the {{nbPeriods}} periods of {{periodLen}} days that the test lasted. The results are summarized below.",
+		"sequence": "Medication schedule (after unblinding) :",
+		"method": "Method :",
+		"method-desc": "A statistical analysis compares the quantitative health variables monitored according to the treatment received. These variables are reported during each period either in mm on 100 mm Visual Analog Scales or in numerical values (see graphs below).",
+		"method-choice": "Statistical analysis performed : {{analysis}}",
+		"method-choice2": "Initially planned statistical analysis : {{analysis}}",
+		"results": "Results :",
+		"result-table": {
+			"criterion": "Judging criterion",
+			"mean-sub": "Moyenne {{substance}} ({{unit}})",
+			"p-value": "P-value"
+		},
+		"conclusion": "Conclusion",
+		"conclusion-placeholder": "Write your conclusion here...",
+		"results-details": "Detailed results :",
+    "free-textarea": "Free text area..."
+	},
+	"data-table": {
+		"supposition": "Treatment supposition",
+		"optimal": "Optimal treatment",
+		"remark": "Remarks (supposition & optimal)"
+	},
+	"statistics": {
+		"var-analyse": "Analysis of variable : {{variable}}",
+		"warning": "Warning: patient data is not complete for this variable !",
+		"error": "The analysis cannot be performed",
+		"warning-custom-strategy": "This analysis is only valid if your predefined substance administration sequence complies with the permutation strategy (which is defined when creating the test, i.e. alternating substance permutation sequences) !",
+		"error-strategy": "This analysis is not allowed with the chosen randomization strategy !",
+		"treatment": "Treatment",
+		"treat-effect": "Treatment effect (mean)",
+		"residual": "Residual",
+		"total": "Total",
+		"total-mean": "Total mean",
+		"cycle": "Cycle",
+		"treatXcycle": "Treatment x Cycle",
+		"autoregression": "Auto-regression",
+		"slope": "Slope",
+		"intercept": "Intercept",
+		"correlation": "Correlation"
+	}
+}

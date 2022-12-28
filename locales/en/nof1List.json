@@ -1,0 +1,50 @@
+{
+	"btn": {
+		"create": "create a new N-of-1 test",
+		"create-fromID": "create a new N-of-1 test, from another one",
+		"stop": "Stop the test",
+		"stop-info": "Allows you to stop a test in case of a problem.\nThe test will change to the completed state, allowing access to the results. The end date of the test will be adjusted and the patient's importable data will extend to this new date.\nThe stop of the test is definitive (it will not be possible to rollback).",
+		"edit": "Edit test",
+		"delete": "Delete test"
+	},
+	"creation-warning": "You can only create one test per 15-minute interval",
+	"delete-warning": "Are you sure you want to delete the test ?",
+	"create-fromID-dialog-title": "Choose the test ID that will be used as a template",
+	"header": {
+		"id": "Test ID",
+		"date": "Creation date",
+		"state": "State"
+	},
+	"optionsMenu": "Options",
+	"menu": {
+		"parameters": "Consult the test parameters",
+		"dataImport": "Import patient's data",
+		"xmlExport": "Export test data to XML",
+		"varBooklet": "Generate the patient's health booklet.",
+		"varBooklet-preview": "Preview of patient's health booklet",
+		"varBooklet-preview-info": "The dates displayed are indicative as the start date of the test has not yet been defined.",
+		"send-email-pharma": "Resend the email to the pharmacy",
+		"send-email-patient": "Resend the email to the patient",
+		"delete-test": "Delete the test",
+		"xlsx-exemple": "Download an example of the file sent to the pharmacy",
+		"xlsx-exemple-info": "The file sent to the pharmacy will not be the same (it will be generated again)."
+	},
+	"btnStatus": {
+		"draft": "Edit draft",
+		"ended": "Results",
+		"ongoing": "Ongoing",
+		"ready": "Start the test",
+		"ready-info": "After entering the effective start date of the test (first day of treatment) and clicking on this button, the test will change to the status \"on going\".\nAn e-mail will be sent to the patient with the link to the page where he/she can fill in the form with the health variables to be monitored.",
+		"preparation": "Start the preparation",
+		"preparation-info": "Triggers the generation of the random administration scheme, according to the selected strategy, and the sending of an email to the partner pharmacy with the information to prepare the treatments.\nIt will not be possible to modify the N-of-1 test parameters after this step."
+	},
+	"alert": {
+		"date": "Please indicate a starting date for the test",
+		"email": "Email could not be sent, please check the address and try again!"
+	},
+	"email": {
+		"sent": "Email successfully sent",
+		"confirm": "Please check the following e-mail address before sending the e-mail (a non-existent address will not be detected) :"
+	},
+	"booklet-file-title": "Form"
+}

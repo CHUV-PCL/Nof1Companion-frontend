@@ -1,0 +1,145 @@
+@page {
+	size: portrait;
+	margin: 18mm;
+}
+
+.recipient {
+  margin: 0;
+	max-height: calc(8 * 1.5rem);
+	overflow: auto;
+}
+
+.title {
+	text-align: center;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+
+.paper {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 1rem;
+	margin-bottom: 2rem;
+}
+
+.paperHeader {
+	display: flex;
+	justify-content: space-between;
+}
+
+.paperHeader > span {
+	padding: 0.5rem 0;
+}
+
+.variables {
+	margin: 0.5rem;
+}
+
+.variable {
+	margin-bottom: 1rem;
+}
+
+.flexH {
+	display: flex;
+	gap: 1rem;
+}
+
+.varTitle {
+	display: inline-block;
+	font-weight: bold;
+	width: 20%;
+}
+
+.varContent {
+	width: 80%;
+	min-width: 10cm; /*377.953px*/
+}
+
+.textarea {
+	border: 1px solid black;
+	border-radius: 5px;
+	height: 35mm;
+	width: 100%;
+}
+
+.description {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+.periodQuestion {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	margin: 0.5rem 0;
+}
+
+.periodAnswer {
+	flex: 1;
+	height: 1.3rem;
+	border-bottom: 1px solid black;
+}
+
+.inputLine {
+	display: inline-block;
+	width: 180px;
+	height: 16px;
+	border-bottom: 1px solid black;
+	margin: 0 1rem;
+}
+
+.line {
+	display: block;
+	margin: 0 auto 0.3rem auto;
+	width: 10cm;
+	height: 8px;
+	border-bottom: 2px solid black;
+}
+
+.vasBounds {
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.radioBox {
+	display: inline-block;
+	margin: 10px;
+}
+
+.radioBox label {
+	display: block;
+	text-align: center;
+}
+
+.radioBox input {
+	appearance: none;
+	display: block;
+	margin: 0 auto;
+	width: 1.5em;
+	height: 1.5em;
+	border: 0.15em solid black;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+@media print {
+	@page {
+		size: portrait;
+		margin: 18mm;
+	}
+
+	.printContainer {
+		height: initial !important;
+		overflow: initial !important;
+	}
+
+	.pageBreak {
+		display: block;
+		page-break-after: always;
+	}
+
+	.avoidBreak {
+		display: block;
+		page-break-inside: avoid;
+	}
+}

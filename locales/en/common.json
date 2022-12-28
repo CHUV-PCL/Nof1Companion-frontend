@@ -1,0 +1,134 @@
+{
+	"nav": {
+		"title": "N-of-1 companion",
+		"nof1List": "N-of-1 tests",
+		"profile": "My profile",
+		"logout": "Logout"
+	},
+	"footer": {
+		"1": "This tool is offered by the ",
+		"pcl": "Clinical Pharmacology Department of the University Hospital of Vaud (PCL - CHUV, Switzerland)",
+		"2": "With the collaboration of the ",
+		"heig": "School of Engineering and Management Vaud (HEIG-VD)",
+		"report": "This N-of-1 test was performed using the \"N-of-1 Companion\" tool, available online and offered by the Clinical Pharmacology Service of the Centre Hospitalier Universitaire Vaudois (PCL-CHUV, Switzerland)."
+	},
+	"form": {
+		"signIn": "Sign In",
+		"signUp": "Sign Up",
+		"email": "Email",
+		"password": "Password",
+		"passwordConfirm": "Confirm Password",
+		"title": "Title:",
+		"institution": "Institution / Medical office",
+		"firstname": "First Name",
+		"lastname": "Last Name",
+		"phone": "Phone",
+		"street": "Address",
+		"zip": "Postal code",
+		"city": "City",
+		"country": "Country",
+		"birth-year": "Birth Year",
+		"insurance": "Insurance",
+		"insuranceNb": "Insurance number"
+	},
+	"formErrors": {
+		"requiredField": "Required Field",
+		"emailInvalid": "Email is malformed",
+		"minLen": "Must be more than 8 characters",
+		"maxLen": "Must be less than 32 characters",
+		"maxLen-n": "Must be less than {{n}} characters",
+		"alpha": "Must be alphabetic letters",
+		"noWhiteSpace": "No spaces, tabs or line breaks",
+		"oneUpperLetter": "At least one uppercase letter",
+		"oneLowerLetter": "At least one lowercase letter",
+		"oneDigitOrSpecial": "At least one digit or one special character",
+		"invalidPassword": "Your password does not meet the security criteria",
+		"passwordConfirm": "Please confirm your password",
+		"passwordConfirmNoMatch": "Passwords do not match",
+		"number": "Please enter a number (integer and without space)",
+		"textarea": "Allowed: letters, digits, spaces and the following characters: ',.:;\"/+-?!#%()",
+		"digitsRequired": "Only digits (no space)",
+		"digitsMax": "Must be less than 20 digits",
+		"userAlreadyExists": "User already exists !",
+		"userAlreadyExists2": "An user with the same email address already exists !",
+		"userNotFound": "No users found with this email address",
+		"invalidCredentials": "Invalid credentials",
+		"errorMsg": "Please check incorrect fields",
+		"errorField": "Incorrect field",
+		"unexpectedErrorMsg": "An error occurred, please try again",
+		"successMsg": "Data have been saved",
+		"integerRange": "Must be an integer between 0 and 299 (or empty)",
+		"year": "Year in \"YYYY\" format"
+	},
+	"button": {
+		"add": "Add",
+		"cancel": "Cancel",
+		"save": "Save",
+		"send": "Send",
+		"delete": "Delete",
+		"close": "Close",
+		"download": "Download",
+		"backToLogin": "Back to the login page",
+    "backToNof1": "Back to the N-of-1 tests page"
+	},
+	"measure-unit-label": "Measurement unit",
+	"posology-table": {
+		"day": "Day",
+		"morning": "Morning",
+		"noon": "Noon",
+		"evening": "Evening",
+		"night": "Night",
+		"fraction": "Fraction(s)*",
+		"fraction-info": "*fractions information",
+		"fraction-desc": "Indicates how many fractions (capsules, tablets, etc) the total dose should be divided into. Example: fractions=2 & dose=100mg means 2 parts of 50mg.",
+		"dose": "Dose ({{unit}})",
+		"dose-w/o-unit": "Dose",
+		"dose-total": "Total dose",
+		"dose-unitary": "Unitary dose",
+		"unit": "Unit"
+	},
+	"startingDate": "Test starting date",
+	"endingDate": "Test ending date",
+	"date": "Date",
+	"day": "Day",
+	"days": "days",
+	"substance": "Substance",
+	"period": "Period",
+	"table": {
+		"labelRowsPerPage": "Rows per page:",
+		"ofLabel": "of",
+		"moreLabel": "more than"
+	},
+	"xlsx": {
+		"sub-recap": {
+			"qty": "Total quantity for substance",
+			"total-dose": "total doses (fractions)",
+			"unit-dose": "doses (fractions) of "
+		},
+		"decreasing-dosage-info": "Additional administration scheme for substances requiring decreasing treatment (at period change)."
+	},
+	"close-modal": "Close recap",
+	"print": {
+		"btn": "Print (print to pdf)*",
+		"warning": "*Check the print settings for correct rendering. In particular the margins (default) and the scaling (real size, 100% or default).",
+		"warning2": "Prefer direct printing if these parameters cannot be modified when saving as a PDF (this is the case for Chrome, for example. FireFox and Edge allow printing in PDF that respects the dimensions)."
+	},
+	"yes": "Yes",
+	"no": "No",
+	"statistics": {
+		"type": "Possible analyses :",
+		"NaiveANOVA": "Naive ANOVA",
+		"NaiveANOVA-long": "Naive ANOVA for treatment effect",
+		"NaiveANOVA-desc": "This test considers each observation as independent.",
+		"CycleANOVA": "ANOVA with Cycle effect",
+		"CycleANOVA-long": "ANOVA for treatment effect by cycle",
+		"CycleANOVA-desc": "This test contrasts treatment effects among cycles, thus, getting rid of the repetition issue.",
+		"ANCOVAautoregr": "ANCOVA Auto-regression",
+		"ANCOVAautoregr-long": "ANCOVA for treatment effect accounting for autocorrelation",
+		"ANCOVAautoregr-desc": "This test compares treatment responses accounting for autocorrelation in observations (AR(1) auto-regressive component)."
+	},
+	"errors": {
+		"test-not-found": "This N-of-1 test does not exist !"
+	},
+  "404": "Page Not Found"
+}
