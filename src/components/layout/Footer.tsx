@@ -8,6 +8,22 @@ import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Image from 'next/image';
 
+const githubIconOptions = {
+	display: 'inline-flex',
+	cursor: 'pointer',
+	padding: 1,
+	borderRadius: 2,
+	border: '2px solid',
+	borderColor: 'primary.contrastText',
+	color: 'primary.contrastText',
+	transition: '0.3s ease-out',
+	'&:hover, &:focus': {
+		boxShadow: `0 0 8px 0`,
+		borderColor: 'text.secondary',
+		color: 'text.primary',
+	},
+};
+
 export default function Footer() {
 	const { t } = useTranslation('common');
 
@@ -100,25 +116,25 @@ export default function Footer() {
 							</Typography>
 							<Stack direction="row" alignItems="center" spacing={1}>
 								<Link
-									title="github link"
-									href="https://github.com/DS-Daniel/Nof1-App"
+									title="N-of-1 Companion (frontend)"
+									href="https://github.com/CHUV-PCL/Nof1Companion-frontend#readme"
 									target={'_blank'}
 									rel={'noopener'}
-									sx={{
-										display: 'inline-flex',
-										cursor: 'pointer',
-										padding: 1,
-										borderRadius: 2,
-										border: '2px solid',
-										borderColor: 'primary.contrastText',
-										color: 'primary.contrastText',
-										transition: '0.3s ease-out',
-										'&:hover, &:focus': {
-											boxShadow: `0 0 8px 0`,
-											borderColor: 'text.secondary',
-											color: 'text.primary',
-										},
-									}}
+									sx={githubIconOptions}
+								>
+									<GitHubIcon
+										sx={{
+											transition:
+												'0.2s cubic-bezier(.47,1.64,.41,.8), color 0s',
+										}}
+									/>
+								</Link>
+								<Link
+									title="N-of-1 Companion (backend)"
+									href="https://github.com/CHUV-PCL/Nof1Companion-backend#readme"
+									target={'_blank'}
+									rel={'noopener'}
+									sx={githubIconOptions}
 								>
 									<GitHubIcon
 										sx={{
